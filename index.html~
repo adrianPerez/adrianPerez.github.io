@@ -1,7 +1,7 @@
 <html>
 
 <head>
-<title>Adrian Perez Project Log</title>
+<title>Adrian Perez Artifact Log</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 <link rel="icon" type="image/png" href="favicon.png">
 
@@ -20,7 +20,7 @@
 
 <body id="bodycss">
 <div id="leftside">
-	<center><h3>Adrian Perez Project Log</h3></center>
+	<center><h3>Adrian Perez Artifact Log</h3></center>
 	<p>Project Log</p>	
 	<p>Braject</p>
 	<p>NMP Jet Engine</p>	
@@ -39,7 +39,7 @@
 
 <div id="rightside">
 	<p>3.30.2016 - The Beginning From the Middle</p>
-	<p id="indent">Starting a log of all my projects. Pretty amazing to see them listed all in one place. This replaces the nebularity of my achievements with a succinct list. I still feel like I am forgetting a few. I will list them as I work on them, and as I recollect past projects.</p>
+	<p id="indent">Starting a log of all my projects. Pretty amazing to see them listed all in one place. This replaces the nebularity of my achievements with a succinct list. I'll be adding more and describing each project. I hope I can dig up some media to show what was trying to be accomplished. Until I listed everything, I could not really be proud of the scope of my activities.</p>
 </div>
 
 </body>
