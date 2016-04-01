@@ -31,6 +31,7 @@
 	<p>Entrepreneur Partner Analysis</p>
 	<p>Four Phases of Idea Evolution</p>	
 	<p>Ecotplasmanaut</p>
+	<p>Tesla Valve</p>
 	<p>Tetrahedral Kites</p>
 	<p>Story Meditation</p>
 	<p>A Guide to Galactic Warfare</p>	
@@ -40,6 +41,22 @@
 </div>
 
 <div id="rightside">
+	<p>3.31.2016 - Lattice Boltzmann Fluids</p>
+	<p id="indent">So yesterday, I wrote about this website, but today I realized I had some project progress I forgot to talk about. A long time ago, I was doing fluid simulations in a traditional CFD way, where the technique uses partial differential equations to solve for the Navier Stokes Equations of flow.
+	</p>
+	<p id="indent">So CFD with partial differential equations essentially goes, continuous -> discrete -> sim, but the new technique I've been using is called Lattice Boltzman CFD, and it essentially goes discrete -> continous -> sim. The reason I have veered toward this type of CFD is because it can be accellerated by GPUs. And this allows you to do live interaction with the fluid as it is simulating.
+	</p>
+	<p id="indent">This is important to me because it increases the tightness of the design loop. I can make changes directly in the environment. Here is an example of me adding wings and bluff bodies to a fluid moving from left-to-right.</p>
+	<p>
+		<video width="440" controls>
+			<source src="videos/livelbmexample.ogv" type='video/ogg; codecs="theora, vorbis"'>
+			<source src="videos/livelbmexample.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+	</p>
+
+	<p id="indent">Many of our tools require us to partially simulate the tool in our head. Live tools create a different type of interaction where we can become one with the simulation in a state of play. With intermediary steps in the design-and-simulate loop there is a tax that makes it hard to gain intuition.
+	</p>
+
 	<p>3.30.2016 - The Beginning From the Middle</p>
 	<p id="indent">Starting a log of all my projects. Pretty amazing to see them listed all in one place. This replaces the nebularity of my achievements with a succinct list. I'll be adding more and describing each project. I hope I can dig up some media to show what I tried to accomplish. Until I listed everything, I could not really be proud of the scope of my activities.</p>
 </div>
