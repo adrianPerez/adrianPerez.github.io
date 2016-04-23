@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<title>Adrian Perez Artifact Log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style type="text/css">
+<!--
+#leftside {float: left; margin: 0; padding 0; width: 9pc;}
+#rightside {margin-right: 17%; margin-left: 11pc; margin-top: 20px; padding-left:24px; padding-top: 6px; padding-right: 24px; padding-bottom:10px; background-color: #fefef1; }
+#indent {text-indent: 25px;}
+#bodycss {width:800px;background-color: #f7f9df;}
+-->
+</style>
+
+</head>
+
+<body id="bodycss">
+<div id="leftside">
+	<center><h3><a href="index.html">Adrian Perez Artifact Log</a></h3></center>
+	<p>Vision Fast</p>
+	<p><a href="projectlog.html">Project Log</a></p>	
+	<p>Braject</p>
+	<p><a href="npmjetengine.html">NMP Jet Engine</a></p>
+	<p>Neural Net Style Transfer</p>
+	<p>Gas Lattice Fluid Solver</p>
+	<p>Quadratic Voting Experiment</p>
+	<p>3D Direct Manipulation Thermoforming</p>
+	<p>Entrepreneur Partner Analysis</p>
+	<p>Four Phases of Idea Evolution</p>	
+	<p>Ecotplasmanaut</p>
+	<p>Tesla Valve</p>
+	<p>Tetrahedral Kites</p>
+	<p>Story Meditation</p>
+	<p><a href="aguidetogalacticwarfare.html">A Guide to Galactic Warfare</a></p>	
+	<p>RingWing</p>
+	<p>Pad Holsters</p>
+	<p>Gradeschool Posters</p>
+</div>
+<div id="rightside">
+	<p>3.31.2016 - Live Lattice Boltzmann Fluids</p>
+	<p id="indent">So yesterday, I wrote about this website, but today I realized I had some project progress I forgot to talk about. A long time ago, I was doing fluid simulations in a traditional CFD way, where the technique uses partial differential equations to solve for the Navier Stokes Equations of flow.
+	</p>
+	<p id="indent">So CFD with partial differential equations essentially goes, continuous -> discrete -> sim, but the new technique I've been using is called Lattice Boltzman CFD, and it essentially goes discrete -> continous -> sim. The reason I have veered toward this type of CFD is because it can be accellerated by GPUs. And this allows you to do live interaction with the fluid as it is simulating.
+	</p>
+	<p id="indent">This is important to me because it increases the tightness of the design loop. I can make changes directly in the environment. Here is an example of me adding wings and bluff bodies to a fluid moving from left-to-right.</p>
+	<p>
+		<video width="440" controls>
+			<source src="videos/livelbmexample.ogv" type='video/ogg; codecs="theora, vorbis"'>
+			<source src="videos/livelbmexample.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+		</video>
+	<small>Simulated using <a href="http://sailfish.us.edu.pl/">Sailfish</a></small>
+	</p>
+
+	<p id="indent">Many of our tools require us to partially simulate the tool in our head. Live tools create a different type of interaction where we can become one with the simulation in a state of play. With intermediary steps in the design-and-simulate loop there is a tax that makes it hard to gain intuition.
+	</p>
+</div>
+
+</body>
+</html>

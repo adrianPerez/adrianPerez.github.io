@@ -20,11 +20,11 @@
 
 <body id="bodycss">
 <div id="leftside">
-	<center><h3>Adrian Perez Artifact Log</h3></center>
+	<center><h3><a href="index.html">Adrian Perez Artifact Log</a></h3></center>
 	<p>Vision Fast</p>
-	<p>Project Log</p>	
+	<p><a href="projectlog.html">Project Log</a></p>	
 	<p>Braject</p>
-	<p>NMP Jet Engine</p>
+	<p><a href="npmjetengine.html">NMP Jet Engine</a></p>
 	<p>Neural Net Style Transfer</p>
 	<p>Gas Lattice Fluid Solver</p>
 	<p>Quadratic Voting Experiment</p>
@@ -35,50 +35,20 @@
 	<p>Tesla Valve</p>
 	<p>Tetrahedral Kites</p>
 	<p>Story Meditation</p>
-	<p>A Guide to Galactic Warfare</p>	
+	<p><a href="aguidetogalacticwarfare.html">A Guide to Galactic Warfare</a></p>	
 	<p>RingWing</p>
 	<p>Pad Holsters</p>
 	<p>Gradeschool Posters</p>
 </div>
 
 <div id="rightside">
-	<p>4.2.2016 - A Science Fiction Book Appears</p>
-	<p id="indent">Science Fiction has always been part of my life. Since I was a child in grade school, I've written Science Fiction. I remember reading Analog Magazine with my Dad, and browsing his collection of SF (Science Fiction). I would sit down with my family in bed, and my Mom would read us Jurrasic Park. Eventually, after college, I wrote and published a book of short stories, called <a href="http://www.amazon.com/Guide-Galactic-Warfare-Adrian-Perez-ebook/dp/B002Y5WVPQ/ref=sr_1_1?ie=UTF8&qid=1459621823&sr=8-1&keywords=a+guide+to+galactic+warfare">A Guide to Galactic Warfare.</a>
-    </p>
-    <p>
-    <center><a href="http://www.amazon.com/Guide-Galactic-Warfare-Adrian-Perez-ebook/dp/B002Y5WVPQ/ref=sr_1_1?ie=UTF8&qid=1459621823&sr=8-1&keywords=a+guide+to+galactic+warfare"><img src="images/guidetogalacticwarfare.jpg" alt="A Guide to Galactic Warfare"></a></center>
-    </p> 
-    <p id="indent">The first SF book I read was Dune. I read it in third grade. I didn't understand most of it. However, a feeling was transmitted. And over subsequent years, it was one of a few books I read multiple times. Read the first Dune book and don't read the others. After the temptation breaks you, read the next book after the original, and then stop forever because the others are really crap. 
+	<p>4.22.2016 - Here and Back Again</p>
+	<p id="indent">I thought I was going to do a much better job at updating regularly. As I look at all my projects, I realize how different they are from each other. Some art stuff, meditation, kites, toys, research. At first glance, I saw no common thread.
 	</p>
-    <p id="indent">My writing skill developed from a few sources. When I was a kid, as I read a story and took pauses in the reading, I would fill the pauses with speculative progressions. I would imagine the character doing or saying something else than what was actually written, and then I would go back to reading the book. The mind would surface a little, and then subside back in. Local fiction building using the original writing as a scaffold. I do not know where this behavior came from, but it was a lot of fun. Interestingly, I don't really do it anymore. It faded naturally.
-    </p>
-    <p id="indent">In highschool, I had the luck to take a Science Fiction course. One of the main takeaways, was the idea that one should write their stories based on a theme. This technique breaks the blank canvas. My first short story was about genetics. I ended up writing a story about a celebrity who has an entourage who destroys all of the deadskin and other biological waste she leaves behind, so that groupies can not clone her body for their own purposes. I eventually sent that story to Analog and it was rejected.
-    </p>
-    <p id="indent">The nice thing about the internet though, is you can be your own publisher for minimal cost. After college, I started writing themed short stories, where I would sit for an hour and rapidly bang out a complete story. These stories built up over time in a blog. I consolidated them and sold them as a book on Amazon's Kindle network. I never made a physical copy, but I did sell about fourteen copies, which I assume went mostly to friends and some strangers.
-    </p>
-    <p> I also made the art for a cover, which depicts a Jellyfish-like alien in a fight with a man. The inspiration came from one of the short stories.
-    </p>
-
-
-	<p>3.31.2016 - Live Lattice Boltzmann Fluids</p>
-	<p id="indent">So yesterday, I wrote about this website, but today I realized I had some project progress I forgot to talk about. A long time ago, I was doing fluid simulations in a traditional CFD way, where the technique uses partial differential equations to solve for the Navier Stokes Equations of flow.
+	<p id="indent">However, two themese stick out. Systematic Analysis of social dynamics, and aerospace. I have a bunch of portraits of heroes on my wall. They are inventors, systems theorists, entrepreneurs, and aerospace people. These projects strongly reflect those chosen inspirational peoople. And it makes sense. I love science fiction. And the best SF has excellent command and commentary on those subjects. Makes me want to write another book.
 	</p>
-	<p id="indent">So CFD with partial differential equations essentially goes, continuous -> discrete -> sim, but the new technique I've been using is called Lattice Boltzman CFD, and it essentially goes discrete -> continous -> sim. The reason I have veered toward this type of CFD is because it can be accellerated by GPUs. And this allows you to do live interaction with the fluid as it is simulating.
-	</p>
-	<p id="indent">This is important to me because it increases the tightness of the design loop. I can make changes directly in the environment. Here is an example of me adding wings and bluff bodies to a fluid moving from left-to-right.</p>
 	<p>
-		<video width="440" controls>
-			<source src="videos/livelbmexample.ogv" type='video/ogg; codecs="theora, vorbis"'>
-			<source src="videos/livelbmexample.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-		</video>
-	<small>Simulated using <a href="http://sailfish.us.edu.pl/">Sailfish</a></small>
-	</p>
-
-	<p id="indent">Many of our tools require us to partially simulate the tool in our head. Live tools create a different type of interaction where we can become one with the simulation in a state of play. With intermediary steps in the design-and-simulate loop there is a tax that makes it hard to gain intuition.
-	</p>
-
-	<p>3.30.2016 - The Beginning From the Middle</p>
-	<p id="indent">Starting a log of all my projects. Pretty amazing to see them listed all in one place. This replaces the nebularity of my achievements with a succinct list. I'll be adding more and describing each project. I hope I can dig up some media to show what I tried to accomplish. Until I listed everything, I could not really be proud of the scope of my activities.</p>
+		I am uninterested in writing about my projects, at the moment. I wanted to touch this page though, so I cleaned the front page and stuffed all of the writing into their accordant links.
 </div>
 
 </body>
