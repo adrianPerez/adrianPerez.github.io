@@ -5,17 +5,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
 <link rel="icon" type="image/png" href="favicon.png">
 
-<link rel="stylesheet" type="text/css" href="style.css">
-
 <style type="text/css">
 <!--
-#leftside {float: left; margin: 0; padding 0; width: 9pc;}
-#rightside {margin-right: 17%; margin-left: 11pc; margin-top: 20px; padding-left:24px; padding-top: 6px; padding-right: 24px; padding-bottom:10px; background-color: #fefef1; }
-#indent {text-indent: 25px;}
-#bodycss {width:800px;background-color: #f7f9df;}
-#toc {width:100%;text-align:center;margin-left:auto;margin-right:auto;}
-th, td {padding:20px;}
+#bodycss {width:800px; background-color:#f7f9df;}
+#toc {width:100%; text-align:center; margin-left:auto; margin-right:auto;}
+table {border-spacing:12px;}
+th, td {padding:20px; background-color:#fefef1;}
 td {vertical-align:top;}
+
 -->
 </style>
 
@@ -25,37 +22,104 @@ td {vertical-align:top;}
 
 <div id="toc">
 <center>
-<h3><a href="index.html">Adrian Perez Artifact Log</a></h3>
+<h3>Adrian Perez Artifact Log</h3>
 
 <table>
   <tr>
-    <td><b>Vision Fast</b><br/>Two Vision Fasts. Four days of prep. Four days of fasting. Four days of coming back to the world. All in my backyard.</td>
-    <td><b>Project Log</b><br/>A summary of how this log has changed. Why I am compling it. And what it has revealed to me.</td>
-    <td><b>Braject</b><br/>A company I started to make bras that actually fit people. We achieve this through 3D scans and CAD based bra design.</td>
+    <td>
+		<b>Vision Fast</b>
+		<br/>
+		Two Vision Fasts. Four days of prep. Four days of fasting. Four days of coming back to the world. All in my backyard.
+	</td>
+    <td>
+		<b>Project Log</b>
+		<br/>
+		A summary of how this log has changed. Why I am compling it. And what it has revealed to me.
+	</td>
+    <td>
+		<b>Braject</b>
+		<br/>
+		A company I started to make bras that actually fit people. We achieve this through 3D scans and CAD-based bra design.
+	</td>
   </tr>
   <tr>
-    <td><b>Neural Net Style Transfer</b><br/>Trying to improve the output of the latest Recombinant Neural Nets that tackle transfering art styles from one image to another.</td>
-    <td><b>Gas Lattice Fluid Part Designer</b><br/>An attempt to use Answer Set Programming and Sat Solvers to find parts that would satisfy thermodynamic criteria. Ex. Make me a jet engine with the following input and output.</td>
-    <td><b>Quadratic Voting Experiment</b><br/>Explorations in quadratic voting, where the cost of votes goes up by the square. And then the total cost of everyone's votes redistributes evenly to citizens.</td>
+    <td>
+		<b>Neural Net Style Transfer</b>
+		<br/>
+		Improved outputs for Recombinant Neural Nets that transfer art styles from one image to another.
+	</td>
+    <td>
+		<b>Gas Lattice Fluid Part Designer</b>
+		<br/>
+		Using Sat solvers to automatically design jet engines.
+	</td>
+    <td>
+		<b>Quadratic Voting</b>
+		<br/>
+		Quadratic voting, where the cost of votes goes up by the square. And then the total cost of everyone's votes redistributes evenly to citizens.
+	</td>
   </tr>
   <tr>
-    <td><b>3D Direct Manipulation Thermoforming</b><br/>3D printing that uses a probe to manipulate a sheet of locally heated plastic. The idea was to avoid the layer problems of traditional "hot glue gun" printing.</td>
-	<td><b>Entrepreneur Partner Analysis</b><br/>It seems foolish to me that as a collective we do not study how founding business partners interact. If the failure rate of new ventures is so high, we should strive to reduce it.</td>
-	<td><b>Four Phases of Idea Evolution</b><br/>Summary</td>
+    <td>
+		<b>3D Direct Manipulation Thermoforming</b>
+		<br/>
+		3D printing that uses a probe to manipulate a sheet of locally heated plastic.
+	</td>
+	<td>
+		<b>Entrepreneur Partner Analysis</b>
+		<br/>
+		A study I conducted to try and study how partner traits affect company success odds.</td>
+	<td>
+		<b>Four Phases of Idea Evolution</b>
+		<br/>
+		The four social phases an idea goes through as it spreads through the world. (1)Prophet (2)Messiah (3)Pope (4)Protestant
+	</td>
   </tr>
   <tr>
-    <td><b>Ecotplasmanaut</b><br/>Summary</td>
-	<td><b>Tesla Valve</b><br/>A no-moving-parts one-way valve. I designed one based on Tesla's patent and sell it over Shapeways.</td>
-	<td><b>Tetrahedral Kites</b><br/>Kites based on the tetrahedral designs pioneered by Alexander Graham Bell in his attempt to make the first airplane.</td>
+    <td>
+		<b>Ecotplasmanaut</b>
+		<br/>
+		A GPS-based Augmented Reality video game I made for the android platform.
+	</td>
+	<td>
+		<b>Tesla Valve</b>
+		<br/>
+		A no-moving-parts one-way valve based on Nikola Tesla's patent.
+	</td>
+	<td>
+		<b>Tetrahedral Kites</b>
+		<br/>
+		Kites based on the tetrahedral designs pioneered by Alexander Graham Bell in his attempt to make the first airplane.
+	</td>
   </tr>
   <tr>
-    <td><b>Story Meditation</b><br/>Summary</td>
-	<td><b><a href="aguidetogalacticwarfare.html">A Guide to Galactic Warfare</a></b><br/>A collection of very-short science fiction stories I wrote and sold over Amazon Kindle.</td>
-	<td><b>RingWing</b><br/>An aerodynamic toy that could be thrown in-doors. It ricocheted, boomeranged, and glided effortlessly.</td>
+    <td>
+		<b>Story Meditation</b>
+		<br/>
+		A type of meditation I developed where one generates a story relative to a theme. A personal interpretation is developed relative to the story.
+	</td>
+	<td>
+		<b><a href="aguidetogalacticwarfare.html">A Guide to Galactic Warfare</a></b>
+		<br/>
+		A collection of very-short science fiction stories I wrote and sold over Amazon Kindle.
+	</td>
+	<td>
+		<b>RingWing</b>
+		<br/>
+		An aerodynamic toy that could be thrown in-doors. It ricocheted, boomeranged, and glided effortlessly.
+	</td>
   </tr>
   <tr>
-    <td><b>Pad Holsters</b><br/>Summary</td>
-	<td><b>Gradeschool Posters</b><br/>Summary</td>
+    <td>
+		<b>Pad Holsters</b>
+		<br/>
+		A company I did in college making leather holsters for the game boy.
+	</td>
+	<td>
+		<b>Gradeschool Posters</b>
+		<br/>
+		My first company. Sold hand drawn posters of Marvel comic book cards.
+	</td>
 	<td></td>
   </tr>
 
